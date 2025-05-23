@@ -10,13 +10,14 @@ class Ejercicio1Test {
 
 	@ParameterizedTest (name = "{index} => Con entrada ({0}) sale {1}")
 	@CsvSource({"2, 1",
-				"5, 1",
+				"10, 1",
 				"6, 1",
 				"14, 7"})
 	
 	void testTransformar(int input, int expected) {
 		Ejercicio1 c = new Ejercicio1();
 		assertEquals(expected, c.transformar(input));
+		// assertTrue(c.transformar(input)==expected);
 	}
 
 }
