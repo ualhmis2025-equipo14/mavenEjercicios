@@ -164,14 +164,6 @@
 				</configuration>
 			</plugin>
 
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>findbugs-maven-plugin</artifactId>
-				<version>3.0.5</version>
-				<configuration>
-					<effort>Max</effort>
-				</configuration>
-			</plugin>
 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -199,7 +191,6 @@
 				</reportSets>
 			</plugin>
 
-		<!--
 			<plugin>
 				<groupId>com.github.spotbugs</groupId>
 				<artifactId>spotbugs-maven-plugin</artifactId>
@@ -218,11 +209,10 @@
 							<artifactId>findsecbugs-plugin</artifactId>
 							<version>1.10.1</version>
 
+						</plugin>
 					</plugins>
 				</configuration>
 			</plugin>
-						</plugin>
-						-->
 		</plugins>
 	</reporting>
 
